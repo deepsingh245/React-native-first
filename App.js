@@ -22,33 +22,41 @@ export default function App() {
           <View style={{ backgroundColor: "black", height: 30, width: 30 }}></View>
         </View>
       </View>
-      {/* <ScrollView>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',backgroundColor:'grey',}}></View>
+      <ScrollView>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
           
-        </ScrollView> */}
+        </ScrollView>
       <View
         style={{
           height: 70,
-          backgroundColor: 'red',
-          // marginTop:100,
-          position: 'absolute',
+          backgroundColor: "white",
           bottom: 0,
+          display:'flex',
+          flexDirection:"row",
+          alignItems:'center',
+          justifyContent:'space-around',
           
-        }}
-      ></View>
+        }}>
+          <View style={{ backgroundColor: "black", height: 50, width: 50,}}>
+            <Text style={{color:'white',}}>Chats</Text>
+          </View>
+          <View style={{ backgroundColor: "black", height: 30, width: 30, marginRight: 10 }}></View>
+          <View style={{ backgroundColor: "black", height: 30, width: 30, marginRight: 10 }}></View>
+          <View style={{ backgroundColor: "black", height: 30, width: 30, marginRight: 10 }}></View>
+        </View>
     
     </View>
   );
@@ -71,14 +79,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   fluid: {
-    
-  },
-  footer: {
-    height: 80,
-    backgroundColor: "red",
-    position: 'absolute',
-    bottom: 0,
-    left: 0,
-    right: 0,
+    flex:1,
   },
 });
