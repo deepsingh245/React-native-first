@@ -22,20 +22,20 @@ export default function App() {
         </View>
       </View>
       <ScrollView>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
-          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black',}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
+          <View style={{height:80,borderBottomWidth:2,borderBottomColor:'black'}}></View>
           
         </ScrollView>
       <View
