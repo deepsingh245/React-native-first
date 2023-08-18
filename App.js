@@ -1,7 +1,6 @@
 // import { StatusBar } from "expo-status-bar";
 import { ScrollView, StyleSheet, Text, View, Button, Alert } from "react-native";
-import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
-
+import FontAwesome, { Icons, SolidIcons } from 'react-native-fontawesome';
 
 export default function App() {
   
@@ -50,12 +49,14 @@ export default function App() {
           justifyContent:'space-around',
           
         }}>
-          <View style={{ backgroundColor: "black", height: 50, width: 50,}}>
+          <View style={{ backgroundColor: "black", height: 50, width: 50,borderRadius:25,}}>
             <Text style={{color:'white',}}>Chats</Text>
           </View>
+          <View style={{ backgroundColor: "black", height: 30, width: 30, marginRight: 10, borderRadius:2, }}></View>
           <View style={{ backgroundColor: "black", height: 30, width: 30, marginRight: 10 }}></View>
           <View style={{ backgroundColor: "black", height: 30, width: 30, marginRight: 10 }}></View>
-          <View style={{ backgroundColor: "black", height: 30, width: 30, marginRight: 10 }}></View>
+          {/* <FontAwesome>{Icons.chevronLeft}</FontAwesome> */}
+          <FontAwesome icon={SolidIcons.smile} />
         </View>
     
     </View>
