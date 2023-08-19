@@ -57,6 +57,7 @@ export default function App() {
           <View style={{ backgroundColor: "black", height: 30, width: 30, marginRight: 10 }}></View>
           {/* <FontAwesome>{Icons.chevronLeft}</FontAwesome> */}
           <FontAwesome icon={SolidIcons.smile} />
+          <FontAwesome style={{fontSize: 32}} icon={BrandIcons.github}></FontAwesome>
         </View>
     
     </View>
